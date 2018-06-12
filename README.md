@@ -36,7 +36,7 @@ _使用前一定要在DNSPOD添加该子域名的解析记录并设置好类型�
 ![](http://files.bingestech.com/a73vWti6RJcMRLMBtgFbIahPSzdmTYql.jpg)
 
 ## 环境测试
-- [x]MAC OS 10.11.6
+- [x] MAC OS 10.11.6
 
 
 
