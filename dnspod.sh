@@ -14,7 +14,7 @@ re_interval=60 #重连间隔 /秒
 
 cur_dir=$(echo $0 | sed 's/\/[^/]*$//')
 cur_file=${0}
-last_modified=$(stat -f %m $cur_file) #判断当前文件是否修改
+last_modified=$(ls -l $cur_file | awk '{print $6"-"$7"-"$8}')#判断当前文件是否修改
 
 file_config="$cur_dir/dnspod_${sub_domain}.cache" #缓存文件保存路径
 url_list_record="https://dnsapi.cn/Record.List"
